@@ -2,8 +2,6 @@
 
 ![BF算法与RK算法](./images/BF算法与RK算法/BF算法与RK算法3.jpg)
 
-![BF算法与RK算法](./images/BF算法与RK算法/BF算法与RK算法4.jpg)
-
 ![BF算法与RK算法](./images/BF算法与RK算法/BF算法与RK算法5.jpg)
 
 ![BF算法与RK算法](./images/BF算法与RK算法/BF算法与RK算法6.jpg)
