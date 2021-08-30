@@ -1,11 +1,5 @@
 # 什么是KMP算法
 
-![什么是KMP算法](./images/什么是KMP算法/什么是KMP算法1.jpg)
-
-![什么是KMP算法](./images/什么是KMP算法/什么是KMP算法2.jpg)
-
-**————— 第二天 —————**
-
 ![什么是KMP算法](./images/什么是KMP算法/什么是KMP算法3.jpg)
 
 ![什么是KMP算法](./images/什么是KMP算法/什么是KMP算法4.jpg)
