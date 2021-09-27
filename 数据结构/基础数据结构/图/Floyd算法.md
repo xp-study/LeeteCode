@@ -145,7 +145,7 @@ A和F之间的距离原本是无穷大，此时以C为中继，距离缩短为AC
 
 ```java
 finalstaticint INF =Integer.MAX_VALUE;
-publicstaticvoid floyd(int[][] matrix){
+public static void floyd(int[][] matrix){
     //循环更新矩阵的值
     for(int k=0; k<matrix.length; k++){
         for(int i=0; i<matrix.length; i++){
@@ -167,7 +167,7 @@ publicstaticvoid floyd(int[][] matrix){
 }
 
 
-publicstaticvoid main(String[] args){
+public static void main(String[] args){
     int[][] matrix ={
         {0,5,2, INF, INF, INF, INF},
         {5,0, INF,1,6, INF, INF},
