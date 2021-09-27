@@ -123,7 +123,7 @@
         // 起点的距离设置为0
         distances[k] = 0;
 
-        // 优先队列按照从大到小排列
+        // 优先队列 按照从小到大排列
         PriorityQueue<Integer> queue = new PriorityQueue((o1, o2) -> distances[(int) o1] - distances[(int) o2]);
         // 将起点放入队列
         queue.offer(k);
@@ -134,15 +134,15 @@
             }
             visited[cur] = true;
 
-            List<int[]> neighbours = graph.getOrDefault(cur, new ArrayList<int[]>());
+            List<int[]> neighbors = graph.getOrDefault(cur, new ArrayList<int[]>());
 
-            for (int[] neighbour : neighbours) {
-                int to = neighbour[0];
+            for (int[] neighbor : neighbors) {
+                int to = neighbor[0];
                 if (visited[to]) {
                     continue;
                 }
                 // 松弛操作
-                distances[to] = Math.min(distances[to], distances[cur] + neighbour[1]);
+                distances[to] = Math.min(distances[to], distances[cur] + neighbor[1]);
                 queue.add(to);
             }
         }
