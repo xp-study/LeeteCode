@@ -45,14 +45,14 @@ class Solution {
             if (tempTarget < nums[i]) {
                 break;
             } else {
-                int index = upperBoudBinarySearch(nums, i + 1, tempTarget);
+                int index = lowerBoudBinarySearch(nums, i + 1, tempTarget);
                 ans = (ans + index - i - 1) % MOD;
             }
         }
         return (int) (ans % MOD);
     }
 
-    public int upperBoudBinarySearch(int[] nums, int startIndex, int target) {
+    public int lowerBoudBinarySearch(int[] nums, int startIndex, int target) {
         int left = startIndex;
         int right = nums.length;
         while (left < right) {
